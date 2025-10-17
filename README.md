@@ -32,7 +32,7 @@ Para garantir que uma conta seja **exclusivamente PF ou PJ**, apliquei o conceit
 Para permitir que o cliente tenha **mais de uma forma de pagamento cadastrada** (ex: dois cartões de crédito e uma conta PayPal), foi criada a entidade:
 
 * **`FORMAS_PAGAMENTO_CLIENTE`:** Esta tabela estabelece uma relação **1:N** com a tabela `CLIENTE`.
-    * Campos: `ID_PAGAMENTO` (PK), `ID_CLIENTE` (FK), `Tipo_Pagamento`, `Número do cartão` (hash do cartão, etc.).
+    * Campos: `ID_PAGAMENTO` (PK), `ID_CLIENTE` (FK), `Tipo_Pagamento`, `Número do cartão`, etc.
 
 ### 3. Rastreabilidade da Entrega
 
